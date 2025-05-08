@@ -41,8 +41,7 @@ butSizes.addEventListener('click' , ()=>{
                 })
 
                 bunImg.addEventListener('click' , ()=>{
-                    let text = document.getElementsByTagName("img")
-                    
+                    let text = document.getElementsByTagName("img")[0]
                     text.src="https://images.pexels.com/photos/31301003/pexels-photo-31301003/free-photo-of-grey-squirrel-on-fence-in-scottish-garden.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                 
                     
